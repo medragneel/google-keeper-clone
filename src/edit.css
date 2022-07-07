@@ -1,0 +1,48 @@
+.edit-form {
+  z-index: 1;
+  position: absolute;
+  height: 40vh;
+  width: 70vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.edit-title {
+  height: 10vh;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.edit-content {
+  height: 10vh;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  resize: none;
+}
+.fermer {
+  color: #dc3545;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.edit-btn {
+  background-color: transparent;
+  color: #515151;
+  border: none;
+  outline: none;
+  letter-spacing: 2.5px;
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+}
+@media only screen and (max-width: 600px) {
+  .edit-form {
+    height: 89vh;
+    width: 92vw;
+  }
+}

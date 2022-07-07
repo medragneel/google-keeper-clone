@@ -1,0 +1,59 @@
+form {
+  position: relative;
+  width: 80%;
+  margin: 0px auto 10px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.title {
+  display: none;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+.title::placeholder {
+  font-weight: 900;
+}
+.content {
+  width: 70%;
+  height: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  resize: none;
+}
+.content::placeholder {
+  font-weight: 600;
+}
+.btn {
+  color: #fbbc04;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: -24%;
+  right: 8%;
+}
+.btn-add {
+  outline: none;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 1.1em;
+}
+.btn-del {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #222;
+}
+.btn-del:hover {
+  color: #dc3545;
+}
+.keepItem:hover .btn-del {
+  display: block;
+}

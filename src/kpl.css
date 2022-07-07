@@ -1,0 +1,45 @@
+.KeepList {
+  width: 100vw;
+  height: 100%;
+  list-style: none;
+}
+ol {
+  padding-left: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+li {
+  cursor: pointer;
+  width: 240px;
+  height: auto;
+  color: #222;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.keepItem {
+  border-radius: 8px;
+  padding: 2em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  ol {
+    grid-template-columns: auto auto;
+  }
+  li {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  ol {
+    grid-template-columns: auto;
+  }
+  li {
+    width: 80%;
+  }
+}
